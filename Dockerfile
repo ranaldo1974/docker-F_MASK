@@ -20,3 +20,5 @@ RUN printf "password\npassword\n\n" | vncpasswd
 RUN vnc4server
 RUN echo "export DISPLAY=$HOSTNAME:1" >> /etc/bash.bashrc
 #RUN mkdir Fmask_4_3
+
+
