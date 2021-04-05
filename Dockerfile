@@ -12,7 +12,7 @@ RUN pwd && ls
 #RUN apt-get install -y libxmu6
 #RUN apt-get install -y unzip
 #RUN apt-get install -y zip
-#RUN apt-get install -y wget
+RUN apt-get install -y wget
 RUN wget http://cloud.recas.ba.infn.it:8080/v1/AUTH_fb6d6fcd0e194a96bb6d0420dce8332f/Fmask/MCR_R2016b.zip
 RUN unzip MCR_R2016b.zip
 #RUN wget http://cloud.recas.ba.infn.it:8080/v1/AUTH_fb6d6fcd0e194a96bb6d0420dce8332f/Fmask/Fmask_4_3.zip
